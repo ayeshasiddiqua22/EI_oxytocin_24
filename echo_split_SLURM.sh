@@ -13,7 +13,7 @@ module load nan
 module load fsl
  
 DATA=/data/project/YP_UG_2023/data
-INDEX=$DATA/list
+INDEX=$DATA/full_list
 	# Search the file for the SGE_TASK_ID number as a line number
 SUBJECT="`awk FNR==$SLURM_ARRAY_TASK_ID $INDEX`"
  
