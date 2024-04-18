@@ -17,7 +17,7 @@ module load fsl
 
 # set the working variables
 DATA=/data/project/YP_UG_2023/data
-INDEX=$DATA/list
+INDEX=$DATA/full_list
 SUBJECT="`awk FNR==$SLURM_ARRAY_TASK_ID $INDEX`"
 
 # High dose
