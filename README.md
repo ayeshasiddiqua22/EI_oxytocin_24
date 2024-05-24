@@ -18,6 +18,14 @@ HUMAN - Parcellation and timeseries extraction
 HUMAN - Hurst exponent extraction
 1. human_Hurst.m
 
+ANIMAL - Filtering
+1. mice_filter.sh
+
+ANIMAL - Parcellation and timeseries extraction 
+1. timeseries_animal.sh
+
+ANIMAL - Hurst exponent extraction 
+1. animal_Hurst.sh
 
 *Note: index files containing subject/participant numbers, ROI numbers, etc. are included in this repository. Please adjust the code/file accordingly.
 
